@@ -1,0 +1,451 @@
+
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Giftly | فروشگاه هدیه هوشمند</title>
+
+    <link
+        rel="stylesheet"
+        href="css/main.css"
+    >
+</head>
+
+<body>
+
+    <!-- =========================
+         HEADER
+    ========================== -->
+
+    <header class="header">
+
+        <a
+            href="#home"
+            class="logo"
+        >
+            Giftly 🎁
+        </a>
+
+        <nav class="navbar">
+
+            <a href="#home">
+                خانه
+            </a>
+
+            <a href="#categories">
+                دسته‌بندی‌ها
+            </a>
+
+            <a href="#products">
+                محصولات
+            </a>
+
+            <a href="#ai">
+                مشاور AI
+            </a>
+
+        </nav>
+
+        <button
+            class="cart-button"
+            id="cartButton"
+        >
+            🛒 سبد خرید
+            <span id="cartCount">0</span>
+            <button
+    class="cart-button"
+    id="cartButton"
+>
+    🛒 سبد خرید
+    <span id="cartCount">0</span>
+</button>
+        </button>
+
+    </header>
+
+
+    <!-- =========================
+         MAIN
+    ========================== -->
+
+    <main>
+
+        <!-- HERO -->
+
+        <section
+            class="hero"
+            id="home"
+        >
+
+            <div class="hero-content">
+
+                <span class="badge">
+                    ✨ خرید هدیه با کمک هوش مصنوعی
+                </span>
+
+                <h1>
+                    هدیه‌ای پیدا کن که
+                    <span>واقعاً خاص باشه.</span>
+                </h1>
+
+                <p>
+                    برای تولد، دوست، خانواده یا هر مناسبت دیگری
+                    بهترین هدیه را پیدا کن.
+                    Giftly بهت کمک می‌کند انتخاب راحت‌تری داشته باشی.
+                </p>
+
+                <div class="hero-buttons">
+
+                    <button
+                        class="primary-button"
+                        id="aiButton"
+                    >
+                        🤖 مشاوره با AI
+                    </button>
+
+                    <button
+                        class="secondary-button"
+                        id="productsButton"
+                    >
+                        مشاهده محصولات
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <div class="hero-visual">
+
+                <div class="gift-box">
+
+                    <div class="gift-ribbon"></div>
+
+                    <div class="gift-bow">
+                        🎀
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             CATEGORIES
+        ========================== -->
+
+        <section
+            class="section"
+            id="categories"
+        >
+
+            <div class="section-title">
+
+                <h2>
+                    برای چه کسی هدیه می‌خوای؟
+                </h2>
+
+                <p>
+                    دسته مورد علاقه‌ات را انتخاب کن.
+                </p>
+
+            </div>
+
+
+            <div class="categories">
+
+                <button class="category-card">
+
+                    <span class="category-icon">
+                        🎂
+                    </span>
+
+                    <strong>
+                        تولد
+                    </strong>
+
+                    <small>
+                        هدیه برای تولد
+                    </small>
+
+                </button>
+
+
+                <button class="category-card">
+
+                    <span class="category-icon">
+                        💝
+                    </span>
+
+                    <strong>
+                        دوست
+                    </strong>
+
+                    <small>
+                        برای یک دوست خاص
+                    </small>
+
+                </button>
+
+
+                <button class="category-card">
+
+                    <span class="category-icon">
+                        🎓
+                    </span>
+
+                    <strong>
+                        فارغ‌التحصیلی
+                    </strong>
+
+                    <small>
+                        برای یک شروع تازه
+                    </small>
+
+                </button>
+
+
+                <button class="category-card">
+
+                    <span class="category-icon">
+                        👨‍👩‍👧
+                    </span>
+
+                    <strong>
+                        خانواده
+                    </strong>
+
+                    <small>
+                        برای عزیزترین آدم‌ها
+                    </small>
+
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             PRODUCTS
+        ========================== -->
+
+        <section
+            class="section"
+            id="products"
+        >
+
+            <div class="section-title">
+
+                <h2>
+                    محصولات محبوب
+                </h2>
+
+                <p>
+                    چند انتخاب جذاب برای شروع.
+                </p>
+
+            </div>
+
+
+            <div
+                class="products"
+                id="productsContainer"
+            >
+
+                <article class="product-card">
+
+                    <div class="product-image">
+                        ☕
+                    </div>
+
+                    <div class="product-content">
+
+                        <h3>
+                            ماگ خاص
+                        </h3>
+
+                        <p>
+                            یک ماگ زیبا برای یک هدیه دوستانه.
+                        </p>
+
+                        <div class="product-bottom">
+
+                            <strong class="price">
+                                $18
+                            </strong>
+
+                            <button
+                                class="add-button"
+                                data-product="ماگ خاص"
+                            >
+                                افزودن
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <article class="product-card">
+
+                    <div class="product-image">
+                        📚
+                    </div>
+
+                    <div class="product-content">
+
+                        <h3>
+                            کتاب هدیه
+                        </h3>
+
+                        <p>
+                            مناسب برای کسانی که عاشق کتاب هستند.
+                        </p>
+
+                        <div class="product-bottom">
+
+                            <strong class="price">
+                                $25
+                            </strong>
+
+                            <button
+                                class="add-button"
+                                data-product="کتاب هدیه"
+                            >
+                                افزودن
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <article class="product-card">
+
+                    <div class="product-image">
+                        🕯️
+                    </div>
+
+                    <div class="product-content">
+
+                        <h3>
+                            شمع معطر
+                        </h3>
+
+                        <p>
+                            یک هدیه زیبا و آرامش‌بخش.
+                        </p>
+
+                        <div class="product-bottom">
+
+                            <strong class="price">
+                                $15
+                            </strong>
+
+                            <button
+                                class="add-button"
+                                data-product="شمع معطر"
+                            >
+                                افزودن
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             AI
+        ========================== -->
+
+        <section
+            class="section"
+            id="ai"
+        >
+
+            <div class="ai-section">
+
+                <div class="ai-content">
+
+                    <span class="ai-badge">
+                        ✨ AI Gift Advisor
+                    </span>
+
+                    <h2>
+                        برای هدیه کمک می‌خوای؟
+                    </h2>
+
+                    <p>
+                        مشاور هوشمند Giftly می‌تواند
+                        بر اساس مناسبت، بودجه و سلیقه
+                        بهت ایده بدهد.
+                    </p>
+
+                    <button
+                        class="primary-button"
+                        id="startAiChat"
+                    >
+                        شروع مشاوره
+                    </button>
+
+                </div>
+
+
+                <div class="ai-preview">
+
+                    <div class="message user-message">
+                        برای دوستم هدیه می‌خوام 🎁
+                    </div>
+
+                    <div class="message bot-message">
+                        عالیه! حدود بودجه‌ات چقدره؟ 🤖
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- =========================
+         FOOTER
+    ========================== -->
+
+    <footer class="footer">
+
+        <p>
+            © 2026 Giftly
+            — هدیه‌ای که با فکر انتخاب شده 🎁
+        </p>
+
+    </footer>
+
+    <script src="js/cart.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
